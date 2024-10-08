@@ -1,0 +1,69 @@
+/* EXEMPLO BOTÕES */
+.subscribe-button{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: opacity 0.15s; /* recebe 2 refereências: o que e tempo */
+    vertical-align: top;    /* alinha os itens */
+}
+
+.join-button{
+    background-color: white;
+    color: rgb(10, 70, 199);
+    border: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 16px;
+    padding-left: 16px;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: backgroud-color 0.15s, 
+        color 0.15s;   /* transição para a cor de fundo e texto */
+}
+
+.twitter-button{
+    background-color: rgb(10, 97, 226);
+    color: white;
+    font-weight: bold;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-radius: 18px;
+    border-style: none;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+}
+
+/* HOVER BOTÕES */
+.subscribe-button:hover{
+    opacity: 0.5;   /* opacidade é de 0 - 1 */
+}
+
+.subscribe-button:active{   /* para quando clicar no botão */
+    opacity: 0.2;
+}
+
+.join-button:hover{
+    background-color: rgb(10, 70, 199);
+    color: white;
+}
+
+.join-button:active{
+    opacity: 0.7;
+}
+
+.twitter-button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* horizontal, vertical, "borrado", cor */
+                                /* OBS: rgba: vermelho, verde, azul, % de "tranparencia" da cor */
+}
