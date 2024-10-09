@@ -1,0 +1,69 @@
+
+p{
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.thumbnail{
+    /* Algumas opções de style p/ elemento:  */
+    /*  caso coloque height (pode desproporcionar a sua img: 
+        1) //certifica de manter as dimenções do elemento (dentro de uma area 300x300 no caso)
+        object-fit: contain;  
+        2) // ajusta a img para o tam pre estabelecido de acordo com width e height
+        object-fit: cover;
+        object-position: center;
+    */ 
+
+    width: 300px; /* ajusta automaticamemte a altura, se colocar "height" saiba ajustar para ficar proporcional */
+    display: block;
+}
+
+.linha-thumbnail{
+    margin-bottom: 12px;
+}
+
+.barra-pesquisa{
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.video-preview{
+    display: inline-block; /* vai ocupar o tamanho necessario*/
+    width: 300px;
+    vertical-align: top; /* alinhar os videos no topo */
+    margin-right: 15px;
+}
+
+.channel-picture{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+
+.profile-picture{
+    width: 40px;
+    border-radius: 50px;
+}
+
+.video-info{
+    display: inline-block;
+    width: 200px;
+}
+
+.video-title{
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.video-author, .video-stats {
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+    padding-top: 4px;
+}
